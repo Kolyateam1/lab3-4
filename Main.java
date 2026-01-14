@@ -174,8 +174,8 @@ public class Main {
                 }
             }
         }
+
         
-        // ========== 5. ДЕМОНСТРАЦИЯ НАБЛЮДЕНИЯ ==========
         System.out.println("\nНАБЛЮДЕНИЕ ЗА ПАССАЖИРАМИ:");
         
         List<Passenger> inCarriage = carriage.getAllPassengers();
@@ -243,4 +243,5 @@ public class Main {
         
         return new Newspaper(type, title, intelligible);
     }
+
 }
